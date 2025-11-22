@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "muiscan": {
+      "command": "node",
+      "args": ["/Users/michaeltrilford/Github/muiscan-mcp/server.js"]
+    }
+  }
+}

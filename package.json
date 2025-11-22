@@ -1,0 +1,13 @@
+{
+  "name": "muiscan",
+  "version": "1.0.0",
+  "description": "Translate Figma files to MUI Design System via the Muiscan MCP Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.22.0"
+  }
+}
