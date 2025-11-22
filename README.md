@@ -56,7 +56,7 @@ Once you have your MUI project set up, you can use Muiscan to convert Figma desi
      "mcpServers": {
        "muiscan": {
          "command": "node",
-         "args": ["/Users/michaeltrilford/Github/muiscan-mcp/server.js"]
+         "args": ["/Users/AddYourPath/muiscan-mcp/server.js"]
        }
      }
    }
