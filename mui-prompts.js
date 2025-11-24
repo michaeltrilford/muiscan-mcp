@@ -17,6 +17,12 @@ Rules:
 - All mui-* components should carry over their props, appended like this: <mui-v-stack space="..." alignx="..." aligny="...">.
 - Maintain proper closing of all custom elements to avoid HTML parsing issues.
 - When responding to a text prompt, strictly follow the user’s directions. Do not include text, content, or components unrelated to the request.
+- Icons (<mui-icon-*>) are available because the environment imports "@muibook/components/mui-icons".
+- Import icons globally "@muibook/components/mui-icons" or direct "@muibook/components/mui-icons/close"
+- Only use valid icon tags that begin with <mui-icon-...></mui-icon-...>.
+- Never invent icon names. Use only known icons provided by the design system.
+- If the prompt requests an icon without specifying which one, use <mui-icon-warning></mui-icon-warning>.
+
 `,
   },
   {
