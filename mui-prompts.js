@@ -22,6 +22,8 @@ Rules:
 - Only use valid icon tags that begin with <mui-icon-...></mui-icon-...>.
 - Never invent icon names. Use only known icons provided by the design system.
 - If the prompt requests an icon without specifying which one, use <mui-icon-warning></mui-icon-warning>.
+- For container components like Card or Table, do not import sub-components (e.g., CardBody, Row, Cell)—they are included automatically.
+- Only import the main component: @muibook/components/mui-card or @muibook/components/mui-table.
 
 `,
   },
